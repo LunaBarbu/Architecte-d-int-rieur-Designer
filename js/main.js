@@ -96,21 +96,6 @@ const projects = [
     ]
   },
   {
-    id: "lesvoies",
-    title: "Les voies",
-    subtitle: "Re-conversion du café « Fluctuat Nec Mergitur »",
-    kind: "academique",
-    typeLabel: "Architecture / Espace public",
-    cover: "assets/img/peniche-hero.jpg",
-    year: "Projet académique",
-    summary: "Reconversion du café situé place de la République en ludothèque ouverte à tous, avec un espace de jeux intérieur / extérieur et une extension en polycarbonate structurée par des portiques et un système de rails.",
-    gallery: [
-      ["assets/img/p11.jpg", "Vue intérieure — nouvel espace de jeu.", ""],
-      ["assets/img/p12.jpg", "Système constructif et organisation des flux.", ""],
-      ["assets/img/p13.jpg", "Déploiement du dispositif vers le parvis.", "wide"]
-    ]
-  },
-  {
     id: "reed",
     title: "Collection REED",
     subtitle: "Tabouret et coupe à fruit en roseau",
