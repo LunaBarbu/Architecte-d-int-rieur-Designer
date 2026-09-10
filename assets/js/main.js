@@ -7,7 +7,7 @@ const projects = [
     typeLabel: "Retail / Concept Design",
     cover: "assets/img/dior-hero.jpg",
     year: "Projet professionnel",
-    summary: "Développement des concepts retail de la boutique Dior Saint-Tropez : conception du mobilier, modélisation 3D et production des plans/coupes.",
+    summary: "Participation à la création et développement des concepts retail dans le cadre de la rénovation de la boutique Dior Saint-Tropez : conception du mobilier, modélisation 3D et production des plans, coupes et détails techniques.",
     gallery: [
       ["assets/img/p3.jpg", "Développement du concept retail et intégration du mobilier.", "wide"],
       ["assets/img/p3.jpg", "Vue intérieure et proposition de parcours.", ""]
