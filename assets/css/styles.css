@@ -96,10 +96,13 @@ button{
 
 .site-nav{
   display:flex;
+
   gap:28px;
 
   font-size:12px;
+
   letter-spacing:.08em;
+
   text-transform:uppercase;
 }
 
@@ -120,6 +123,7 @@ button{
   border:0;
 
   text-transform:uppercase;
+
   letter-spacing:.08em;
 
   font-size:12px;
@@ -130,13 +134,14 @@ button{
 
 
 /* =========================================================
-   TYPOGRAPHIE COMMUNE
+   TYPOGRAPHIE
    ========================================================= */
 
 .eyebrow{
   margin:0 0 16px;
 
   text-transform:uppercase;
+
   letter-spacing:.16em;
 
   font-size:10px;
@@ -146,7 +151,7 @@ button{
 
 .hero h1,
 .profile-copy h2,
-.contact-heading h2,
+.contact-identity h2,
 .project-detail h1{
   font-family:
     Georgia,
@@ -166,6 +171,7 @@ button{
 
 .hero{
   max-width:var(--max);
+
   margin:0 auto;
 
   padding:
@@ -179,7 +185,8 @@ button{
     minmax(280px,.78fr)
     minmax(420px,1.22fr);
 
-  gap:clamp(45px,7vw,110px);
+  gap:
+    clamp(45px,7vw,110px);
 
   align-items:end;
 }
@@ -216,6 +223,7 @@ button{
   font-size:12px;
 
   text-transform:uppercase;
+
   letter-spacing:.1em;
 
   transition:
@@ -229,6 +237,7 @@ button{
 
 .text-link span{
   font-size:17px;
+
   line-height:1;
 }
 
@@ -280,7 +289,7 @@ button{
 
 
 /* =========================================================
-   PROJETS — HEADER
+   PROJETS
    ========================================================= */
 
 .section-head{
@@ -322,6 +331,7 @@ button{
 
 .filter{
   border:0;
+
   background:none;
 
   padding:0 0 5px;
@@ -509,7 +519,7 @@ button{
 
 
 /* =========================================================
-   CONTACT
+   CONTACT — VERSION COMPACTE
    ========================================================= */
 
 .contact-section{
@@ -518,7 +528,7 @@ button{
   color:var(--white);
 
   padding:
-    clamp(80px,10vw,150px)
+    clamp(55px,7vw,90px)
     var(--pad);
 
   overflow:hidden;
@@ -533,19 +543,23 @@ button{
 
   grid-template-columns:1fr 1fr;
 
-  gap:clamp(50px,9vw,140px);
+  gap:clamp(40px,8vw,120px);
+
+  align-items:end;
 }
 
-.contact-section .eyebrow{
+
+
+/* IDENTITÉ */
+
+.contact-identity .eyebrow{
   color:#aaa79f;
 
-  margin-bottom:24px;
+  margin-bottom:18px;
 }
 
-.contact-heading h2{
+.contact-identity h2{
   margin:0;
-
-  max-width:700px;
 
   font-family:
     Georgia,
@@ -554,12 +568,30 @@ button{
 
   font-weight:400;
 
-  font-size:clamp(52px,7vw,100px);
+  font-size:clamp(42px,5vw,68px);
 
-  line-height:.94;
+  line-height:.95;
 
   letter-spacing:-.035em;
 }
+
+.contact-role{
+  margin:13px 0 0;
+
+  color:#aaa79f;
+
+  font-size:11px;
+
+  line-height:1.45;
+
+  text-transform:uppercase;
+
+  letter-spacing:.13em;
+}
+
+
+
+/* INFORMATIONS */
 
 .contact-content{
   display:flex;
@@ -567,22 +599,18 @@ button{
   flex-direction:column;
 
   justify-content:flex-end;
-
-  min-height:100%;
-
-  padding-bottom:3px;
 }
 
 .contact-intro{
-  max-width:390px;
+  max-width:360px;
 
-  margin:0 0 48px;
+  margin:0 0 25px;
 
   color:#aaa79f;
 
-  font-size:14px;
+  font-size:13px;
 
-  line-height:1.7;
+  line-height:1.6;
 }
 
 .contact-links{
@@ -608,7 +636,7 @@ button{
 
   max-width:560px;
 
-  padding:17px 0;
+  padding:13px 0;
 
   border-top:1px solid #464640;
 
@@ -617,7 +645,7 @@ button{
     "Times New Roman",
     serif;
 
-  font-size:clamp(20px,2.3vw,30px);
+  font-size:clamp(18px,2vw,25px);
 
   transition:
     color .3s ease,
@@ -631,7 +659,7 @@ button{
 .contact-link:hover{
   color:#d8d5cc;
 
-  padding-left:12px;
+  padding-left:10px;
 }
 
 .contact-arrow{
@@ -641,9 +669,9 @@ button{
     system-ui,
     sans-serif;
 
-  font-size:18px;
+  font-size:16px;
 
-  opacity:.45;
+  opacity:.4;
 
   transform:translate(0,0);
 
@@ -653,7 +681,7 @@ button{
 }
 
 .contact-link:hover .contact-arrow{
-  transform:translate(5px,-5px);
+  transform:translate(4px,-4px);
 
   opacity:1;
 }
@@ -661,7 +689,7 @@ button{
 
 
 /* =========================================================
-   FOOTER FINAL
+   FOOTER FINAL — TRÈS FIN
    ========================================================= */
 
 .site-footer{
@@ -683,7 +711,7 @@ button{
 
   margin:0 auto;
 
-  min-height:110px;
+  min-height:82px;
 
   display:grid;
 
@@ -695,7 +723,7 @@ button{
 }
 
 .footer-brand{
-  font-size:12px;
+  font-size:11px;
 
   font-weight:650;
 
@@ -713,9 +741,9 @@ button{
 
   justify-content:center;
 
-  gap:25px;
+  gap:24px;
 
-  font-size:10px;
+  font-size:9px;
 
   text-transform:uppercase;
 
@@ -723,7 +751,7 @@ button{
 }
 
 .footer-nav a{
-  opacity:.55;
+  opacity:.5;
 
   transition:opacity .2s ease;
 }
@@ -739,15 +767,15 @@ button{
 
   align-items:center;
 
-  gap:9px;
+  gap:8px;
 
-  font-size:10px;
+  font-size:9px;
 
   text-transform:uppercase;
 
   letter-spacing:.1em;
 
-  opacity:.55;
+  opacity:.5;
 
   transition:
     opacity .2s ease,
@@ -755,7 +783,7 @@ button{
 }
 
 .footer-top span:last-child{
-  font-size:15px;
+  font-size:14px;
 }
 
 .footer-top:hover{
@@ -764,6 +792,12 @@ button{
   transform:translateY(-2px);
 }
 
+
+
+/* =========================================================
+   FOOTER — LIGNE INFÉRIEURE
+   ========================================================= */
+
 .footer-bottom{
   max-width:var(--max);
 
@@ -771,7 +805,7 @@ button{
 
   border-top:1px solid #34342f;
 
-  min-height:54px;
+  min-height:46px;
 
   display:flex;
 
@@ -783,7 +817,7 @@ button{
 
   color:#77766f;
 
-  font-size:9px;
+  font-size:8px;
 
   text-transform:uppercase;
 
@@ -1024,7 +1058,9 @@ button{
   .contact-inner{
     grid-template-columns:1fr;
 
-    gap:70px;
+    gap:45px;
+
+    align-items:start;
   }
 
   .contact-content{
@@ -1032,7 +1068,7 @@ button{
   }
 
   .contact-intro{
-    margin-bottom:35px;
+    margin-bottom:20px;
   }
 
   .contact-link{
@@ -1045,7 +1081,7 @@ button{
   .footer-main{
     grid-template-columns:1fr auto;
 
-    min-height:100px;
+    min-height:75px;
   }
 
   .footer-nav{
@@ -1059,7 +1095,7 @@ button{
   .footer-bottom{
     flex-wrap:wrap;
 
-    padding:18px 0;
+    padding:15px 0;
 
     min-height:auto;
   }
@@ -1103,7 +1139,7 @@ button{
   }
 
 
-  /* PROJECT HEADER */
+  /* PROJECTS */
 
   .section-head{
     align-items:start;
@@ -1126,50 +1162,54 @@ button{
   /* CONTACT */
 
   .contact-section{
-    padding-top:75px;
+    padding-top:55px;
 
-    padding-bottom:80px;
+    padding-bottom:60px;
   }
 
   .contact-inner{
-    gap:55px;
+    gap:40px;
   }
 
-  .contact-heading h2{
-    font-size:52px;
+  .contact-identity h2{
+    font-size:43px;
+  }
 
-    line-height:.95;
+  .contact-role{
+    font-size:9px;
+
+    letter-spacing:.12em;
   }
 
   .contact-intro{
-    font-size:13px;
+    font-size:12px;
 
-    margin-bottom:30px;
+    margin-bottom:20px;
   }
 
   .contact-link{
-    font-size:19px;
+    font-size:18px;
 
-    padding:15px 0;
+    padding:12px 0;
   }
 
   .contact-arrow{
-    font-size:16px;
+    font-size:15px;
   }
 
 
   /* FOOTER */
 
   .footer-main{
-    min-height:85px;
+    min-height:70px;
   }
 
   .footer-brand{
-    font-size:10px;
+    font-size:9px;
   }
 
   .footer-top{
-    font-size:9px;
+    font-size:8px;
   }
 
   .footer-bottom{
@@ -1177,9 +1217,9 @@ button{
 
     grid-template-columns:1fr 1fr;
 
-    gap:8px 20px;
+    gap:7px 15px;
 
-    font-size:8px;
+    font-size:7px;
   }
 
   .footer-bottom span:last-child{
