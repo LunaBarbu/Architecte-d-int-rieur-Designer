@@ -123,7 +123,7 @@ const projects = [
       ["assets/img/p17.jpg", "Rendus intérieurs et extérieurs de la péniche.", ""],
       ["assets/img/p18.jpg", "Plan technique et élévation du projet.", "wide"]
     ]
-  },
+  }
 ];
 
 function cardTemplate(p){
