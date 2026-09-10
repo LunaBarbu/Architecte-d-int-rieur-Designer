@@ -109,6 +109,20 @@ const projects = [
       ["assets/img/p15.jpg", "Le tabouret et son système formel.", ""],
       ["assets/img/p16.jpg", "Décomposition et détails de l’objet.", "wide"]
     ]
+  },
+  {
+    id: "lesvoies",
+    title: "Les voies",
+    subtitle: "Une scène flottante pour les territoires délaissés",
+    kind: "academique",
+    typeLabel: "Architecture / Scénographie",
+    cover: "assets/img/peniche-hero.jpg",
+    year: "Projet académique",
+    summary: "La « diagonale du vide » regroupe de nombreux territoires français en voie de désertification et d’abandon par les services de la République. Face à cet enjeu géographique, mon projet propose de réaffecter une péniche Freycinet en salle de spectacle ambulante, capable d’accoster dans des communes souvent éloignées des circuits culturels. Les voies navigables du Nord-Est de la France deviennent alors la trame d’une programmation itinérante. Le réaménagement de la cale, des espaces extérieurs et des aménités associées à une programmation musicale et théâtrale proposent une expérience inédite au fil de l’eau. Ce projet interroge notre façon d’aménager le territoire, de créer du lien et de l’attention là où l’offre culturelle est parfois absente, mais aussi de réanimer le patrimoine fluvial.",
+    gallery: [
+      ["assets/img/p17.jpg", "Rendus intérieurs et extérieurs de la péniche.", ""],
+      ["assets/img/p18.jpg", "Plan technique et élévation du projet.", "wide"]
+    ]
   }
 ];
 
